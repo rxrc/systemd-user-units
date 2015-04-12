@@ -1,0 +1,12 @@
+[Unit]
+Description=Awesome window manager
+After=window-manager.target
+Requires=window-manager.target
+
+[Service]
+ExecStart=/usr/bin/awesome
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=default.target

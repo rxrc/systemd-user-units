@@ -1,0 +1,9 @@
+[Unit]
+Description=Window manager
+Wants=xorg@0.service
+Requires=dbus.socket
+After=dbus.socket
+AllowIsolate=true
+
+[Install]
+WantedBy=default.target
