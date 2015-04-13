@@ -1,5 +1,6 @@
 [Unit]
 Description=User keymaps
+Requires=window-manager.target
 
 [Service]
 ExecStart=/usr/bin/xmodmap %h/.Xmodmap
