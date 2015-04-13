@@ -7,8 +7,9 @@ After=default.target
 [Service]
 Type=oneshot
 ExecStart=/usr/bin/sleep 3
-ExecStart=/usr/bin/insync start --no-daemon
+ExecStart=/usr/bin/insync start
 ExecStop=/usr/bin/insync quit
+RemainAfterExit=yes
 
 [Install]
 WantedBy=default.target
