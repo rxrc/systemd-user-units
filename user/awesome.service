@@ -1,8 +1,8 @@
 [Unit]
 Description=Awesome window manager
 Documentation=man:awesome(1)
-After=display-manager.target
-Requires=display-manager.target
+After=display-server.target
+Requires=display-server.target
 
 [Service]
 ExecStart=/usr/bin/awesome

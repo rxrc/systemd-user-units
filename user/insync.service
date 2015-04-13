@@ -1,8 +1,8 @@
 [Unit]
 Description=Insync
 Documentation=man:insync(1)
-Requires=display-manager.target
-After=display-manager.target
+Requires=display-server.target
+After=display-server.target
 
 [Service]
 Type=oneshot
@@ -12,4 +12,4 @@ ExecStop=/usr/bin/insync quit
 RemainAfterExit=yes
 
 [Install]
-WantedBy=display-manager.target
+WantedBy=display-server.target
