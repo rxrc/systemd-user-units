@@ -1,9 +1,9 @@
 [Unit]
-Description=Display manager
+Description=X.Org display server
 Requires=xorg@0.service
 Requires=dbus.socket
 After=dbus.socket
 After=xorg@0.service
 
 [Install]
-WantedBy=default.target
+Alias=display-server.target
