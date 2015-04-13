@@ -1,11 +1,11 @@
 [Unit]
 Description=User keymaps
 Documentation=man:xmodmap(1)
-Requires=window-manager.target
+Requires=display-manager.target
 
 [Service]
 ExecStart=/usr/bin/xmodmap %h/.Xmodmap
 RemainAfterExit=yes
 
 [Install]
-WantedBy=window-manager.target
+WantedBy=display-manager.target

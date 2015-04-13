@@ -1,9 +1,9 @@
 [Unit]
 Description=Application %i
-After=window-manager.target
+After=display-manager.target
 
 [Service]
 ExecStart=/usr/bin/env %i
 
 [Install]
-WantedBy=window-manager.target
+WantedBy=display-manager.target
