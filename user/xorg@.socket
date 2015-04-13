@@ -1,5 +1,6 @@
 [Unit]
 Description=Socket for xorg at display %i
+Documentation=man:xorg(1)
 
 [Socket]
 ListenStream=/tmp/.X11-unix/X%i

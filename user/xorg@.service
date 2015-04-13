@@ -1,5 +1,6 @@
 [Unit]
 Description=Xorg server at display %i
+Documentation=man:xorg(1)
 Requires=xorg@%i.socket
 After=xorg@%i.socket
 

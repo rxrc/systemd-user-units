@@ -1,5 +1,6 @@
 [Unit]
 Description=User keymaps
+Documentation=man:xmodmap(1)
 Requires=window-manager.target
 
 [Service]

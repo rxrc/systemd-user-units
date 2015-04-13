@@ -1,5 +1,6 @@
 [Unit]
 Description=D-Bus User Message Bus Socket
+Documentation=man:dbus-daemon(1)
 
 [Socket]
 ListenStream=%t/bus

@@ -1,5 +1,6 @@
 [Unit]
 Description=Awesome window manager
+Documentation=man:awesome(1)
 After=window-manager.target
 Requires=window-manager.target
 
