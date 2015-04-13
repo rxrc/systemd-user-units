@@ -2,7 +2,6 @@
 Description=User keymaps
 
 [Service]
-Type=simple
 ExecStart=/usr/bin/xmodmap %h/.Xmodmap
 RemainAfterExit=yes
 
