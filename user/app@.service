@@ -1,0 +1,9 @@
+[Unit]
+Description=Application %i
+After=window-manager.target
+
+[Service]
+ExecStart=/usr/bin/env %i
+
+[Install]
+WantedBy=window-manager.target
