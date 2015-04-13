@@ -1,0 +1,14 @@
+[Unit]
+Description=Insync
+Documentation=man:insync(1)
+Requires=default.target
+After=default.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/sleep 3
+ExecStart=/usr/bin/insync start --no-daemon
+ExecStop=/usr/bin/insync quit
+
+[Install]
+WantedBy=default.target
