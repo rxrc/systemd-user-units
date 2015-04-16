@@ -4,7 +4,7 @@ Documentation=man:setxkbmap(1)
 Requires=display-server.target
 
 [Service]
-ExecStart=/usr/bin/xkbcomp -I%h/.xkb %h/.config/xkb/%i $DISPLAY
+ExecStart=/usr/bin/xkbcomp -I%h/.config/xkb %h/.config/xkb/%i $DISPLAY
 RemainAfterExit=yes
 
 [Install]
