@@ -1,0 +1,11 @@
+[Unit]
+Description=tmuxinator start %i
+Documentation=man:tmux(1)
+
+[Service]
+ExecStart=/bin/sh -c '%h/.rbenv/bin/rbenv exec tmuxinator start %i'
+ExecStop=/usr/bin/tmux kill-session -t %i
+RemainAfterExit=yes
+
+[Install]
+WantedBy=default.target
