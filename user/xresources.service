@@ -4,7 +4,7 @@ Documentation=man:xrdb(1)
 After=display-server.target
 
 [Service]
-ExecStart=/usr/bin/xrdb %h/.Xresources
+ExecStart=/usr/bin/xrdb %h/.config/Xresources/default
 RemainAfterExit=yes
 
 [Install]

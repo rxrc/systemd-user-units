@@ -1,0 +1,11 @@
+[Unit]
+Description=X resources %i
+Documentation=man:xrdb(1)
+After=xresources.service
+
+[Service]
+ExecStart=/usr/bin/xrdb -merge %h/.config/Xresources/%i
+RemainAfterExit=yes
+
+[Install]
+WantedBy=display-server.target
