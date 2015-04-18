@@ -1,8 +1,6 @@
 [Unit]
 Description=X resources %i
 Documentation=man:xrdb(1)
-Requires=xresources.service
-After=xresources.service
 
 [Service]
 ExecStart=/usr/bin/xrdb -merge %h/.config/Xresources/%i
