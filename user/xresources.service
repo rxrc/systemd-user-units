@@ -1,0 +1,11 @@
+[Unit]
+Description=X resources default
+Documentation=man:xrdb(1)
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/xrdb %h/.config/Xresources/default
+RemainAfterExit=yes
+
+[Install]
+WantedBy=display-server.target

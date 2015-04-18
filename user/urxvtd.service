@@ -2,11 +2,12 @@
 Description=rxvt-unicode (urxvt) daemon
 Documentation=man:urxvtd(1) man:urxvt(1)
 Requires=urxvtd.socket
-After=display-server.target
+Requires=xresources.service
+After=xresources.service
 
 [Service]
 ExecStart=/usr/bin/urxvtd -o -q
 Environment=RXVT_SOCKET=%t/urxvtd-%H
 
 [Install]
-WantedBy=display-server.target
+WantedBy=display-server.service
