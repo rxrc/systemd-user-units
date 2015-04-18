@@ -1,6 +1,7 @@
 [Unit]
 Description=X resources %i
 Documentation=man:xrdb(1)
+Requires=xresources.service
 After=xresources.service
 
 [Service]
