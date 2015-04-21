@@ -4,7 +4,7 @@ Documentation=man:xrdb(1)
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/xrdb %h/.config/Xresources/default
+ExecStart=/usr/bin/xrdb -I%h/.config/Xresources %h/.config/Xresources/default
 RemainAfterExit=yes
 
 [Install]
