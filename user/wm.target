@@ -1,6 +1,6 @@
 [Unit]
 Description=Post window manager
-Requires=display-server.target
+PartOf=display-server.target
 After=display-server.target
 
 [Install]

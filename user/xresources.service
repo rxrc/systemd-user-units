@@ -1,6 +1,8 @@
 [Unit]
 Description=X resources default
 Documentation=man:xrdb(1)
+PartOf=display-server.target
+After=display-server.target
 
 [Service]
 Type=oneshot

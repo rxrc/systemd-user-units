@@ -1,15 +1,14 @@
 [Unit]
 Description=Insync
 Documentation=man:insync(1)
-Requires=display-server.target
-After=display-server.target
+PartOf=window-manager.target
+After=window-manager.target
 
 [Service]
 Type=oneshot
-ExecStart=/usr/bin/sleep 3
 ExecStart=/usr/bin/insync start
 ExecStop=/usr/bin/insync quit
 RemainAfterExit=yes
 
 [Install]
-WantedBy=display-server.target
+WantedBy=window-manager.target
