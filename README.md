@@ -8,7 +8,7 @@ These are my systemd units for user services.
 
 For a usage example, see my [dotfiles].
 
-[dotfiles]: https://github.com/razor-x/dotfiles
+[dotfiles]: https://github.com/rxrc/dotfiles
 
 ## License
 

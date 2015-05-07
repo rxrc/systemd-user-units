@@ -12,7 +12,7 @@
     "config"
   ],
   "license": "Public Domain",
-  "homepage": "https://github.com/razor-x/systemd-user-units",
+  "homepage": "https://github.com/rxrc/systemd-user-units",
   "private": true,
   "ignore": [
     "**/.*"
