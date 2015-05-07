@@ -1,9 +1,10 @@
 [Unit]
 Description=Hexchat
+Documentation=man:hexchat(1)
 After=display-server.target
 
 [Service]
 ExecStart=/usr/bin/hexchat --minimize=2
 
-Install]
+[Install]
 WantedBy=display-server.target
