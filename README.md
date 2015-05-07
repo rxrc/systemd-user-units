@@ -1,6 +1,6 @@
 # systemd/User Units
 
-[![The Unlicense](https://img.shields.io/badge/license-The_Unlicense-red.svg)](./LICENSE.txt)
+[![The Unlicense](https://img.shields.io/github/license/rxrc/systemd-user-units.svg)](./LICENSE.txt)
 
 ## Description
 
