@@ -1,5 +1,6 @@
 # systemd/User Units
 
+[![Release](https://img.shields.io/github/release/rxrc/systemd-user-units.svg)](https://github.com/rxrc/systemd-user-units/releases)
 [![The Unlicense](https://img.shields.io/github/license/rxrc/systemd-user-units.svg)](./LICENSE.txt)
 
 ## Description
