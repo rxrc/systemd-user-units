@@ -3,6 +3,7 @@ Description=Insync
 Documentation=man:insync(1)
 PartOf=window-manager.target
 After=window-manager.target
+After=xresources.service
 
 [Service]
 Type=oneshot

@@ -2,6 +2,7 @@
 Description=Post window manager
 PartOf=display-server.target
 After=display-server.target
+After=xresources.service
 
 [Install]
 Alias=window-manager.target

@@ -1,6 +1,7 @@
 [Unit]
 Description=Application %i
 After=display-server.target
+After=xresources.service
 
 [Service]
 ExecStart=/usr/bin/env %i

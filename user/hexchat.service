@@ -2,6 +2,7 @@
 Description=Hexchat
 Documentation=man:hexchat(1)
 After=display-server.target
+After=xresources.service
 
 [Service]
 ExecStart=/usr/bin/hexchat --minimize=2
