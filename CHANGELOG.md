@@ -1,6 +1,6 @@
 # Changelog
 
-## HEAD
+## 1.1.1
 
 - Ensure some units start after xresources.
 
