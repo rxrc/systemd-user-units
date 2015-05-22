@@ -1,5 +1,9 @@
 # Changelog
 
+## HEAD
+
+- Add transmission-gtk.service.
+
 ## 1.1.1
 
 - Ensure some units start after xresources.

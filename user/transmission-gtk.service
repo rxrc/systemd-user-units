@@ -1,0 +1,10 @@
+[Unit]
+Description=Transmission GTK
+Documentation=man:transmission-gtk(1)
+After=display-server.target
+
+[Service]
+ExecStart=/usr/bin/transmission-gtk --minimized
+
+[Install]
+WantedBy=display-server.target
