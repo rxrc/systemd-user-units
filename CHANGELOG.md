@@ -1,6 +1,6 @@
 # Changelog
 
-## HEAD
+## 1.3.0
 
 - Use system tmuxinator.
 
