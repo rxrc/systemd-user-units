@@ -1,5 +1,9 @@
 # Changelog
 
+## HEAD
+
+- Use system tmuxinator.
+
 ## 1.2.0
 
 - Add transmission-gtk.service.

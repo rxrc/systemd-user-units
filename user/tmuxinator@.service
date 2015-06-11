@@ -4,7 +4,7 @@ Documentation=man:tmux(1)
 After=ssh-agent.service
 
 [Service]
-ExecStart=/bin/sh -c '%h/.rbenv/bin/rbenv exec tmuxinator start %i'
+ExecStart=/usr/bin/tmuxinator start %i
 ExecStop=/usr/bin/tmux kill-session -t %i
 RemainAfterExit=yes
 
