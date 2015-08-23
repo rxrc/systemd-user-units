@@ -1,6 +1,6 @@
 # Changelog
 
-## HEAD
+## 1.4.0
 
 - Add xscreensaver.service.
 
