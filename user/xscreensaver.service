@@ -1,0 +1,11 @@
+[Unit]
+Description=Start xscreensaver daemon
+Documentation=man:xscreensaver(1)
+PartOf=xresources.service
+After=xresources.service
+
+[Service]
+ExecStart=/usr/bin/xscreensaver -no-splash
+
+[Install]
+WantedBy=display-server.target

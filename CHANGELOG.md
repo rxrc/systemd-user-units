@@ -1,5 +1,9 @@
 # Changelog
 
+## HEAD
+
+- Add xscreensaver.service.
+
 ## 1.3.0
 
 - Use system tmuxinator.
