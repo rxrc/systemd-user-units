@@ -1,5 +1,9 @@
 # Changelog
 
+## HEAD
+
+- Set restart on-failure for xscreensaver.
+
 ## 1.4.0
 
 - Add xscreensaver.service.
