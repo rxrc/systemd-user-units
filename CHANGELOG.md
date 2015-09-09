@@ -2,6 +2,7 @@
 
 ## HEAD
 
+- Fix issues with ordering cycles.
 - Set restart on-failure for xscreensaver.
 
 ## 1.4.0
