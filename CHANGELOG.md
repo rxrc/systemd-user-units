@@ -1,6 +1,6 @@
 # Changelog
 
-## HEAD
+## 1.4.1
 
 - Fix issues with ordering cycles.
 - Set restart on-failure for xscreensaver.
