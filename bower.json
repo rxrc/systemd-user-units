@@ -1,6 +1,6 @@
 {
   "name": "systemd-user-units",
-  "version": "1.4.1",
+  "version": "2.0.0",
   "authors": [
     "Evan Sosenko <razorx@evansosenko.com>"
   ],

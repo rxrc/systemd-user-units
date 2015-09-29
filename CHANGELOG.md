@@ -1,6 +1,6 @@
 # Changelog
 
-## HEAD
+## 2.0.0
 
 - Remove dbus units: D-Bus 266 now launches user buses.
 
