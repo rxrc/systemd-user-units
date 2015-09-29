@@ -1,5 +1,9 @@
 # Changelog
 
+## HEAD
+
+- Remove dbus units: D-Bus 266 now launches user buses.
+
 ## 1.4.1
 
 - Fix issues with ordering cycles.

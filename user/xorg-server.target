@@ -1,8 +1,8 @@
 [Unit]
 Description=X.Org display server
 Requires=xorg@0.service
-Requires=dbus.socket
-After=dbus.socket
+Requires=dbus.service
+After=dbus.service
 After=xorg@0.service
 
 [Install]
