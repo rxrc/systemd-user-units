@@ -1,5 +1,9 @@
 # Changelog
 
+## HEAD
+
+- Use `--no-daemon` mode for insync.
+
 ## 2.0.0
 
 - Remove dbus units: D-Bus 266 now launches user buses.

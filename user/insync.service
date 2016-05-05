@@ -6,10 +6,7 @@ After=window-manager.target
 After=xresources.service
 
 [Service]
-Type=oneshot
-ExecStart=/usr/bin/insync start
-ExecStop=/usr/bin/insync quit
-RemainAfterExit=yes
+ExecStart=/usr/bin/insync start --no-daemon
 
 [Install]
 WantedBy=window-manager.target
