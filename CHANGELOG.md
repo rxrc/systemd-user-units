@@ -1,6 +1,6 @@
 # Changelog
 
-## HEAD
+## 2.1.0
 
 - Use `--no-daemon` mode for insync.
 
