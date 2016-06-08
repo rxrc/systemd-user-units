@@ -1,5 +1,10 @@
 # Changelog
 
+## HEAD
+
+- The following services now restart on failure:
+  `app@`, `hexchat`, `insync`, `rbenv@`, `transmission-gtk`, and `xbindkeys`.
+
 ## 2.1.0
 
 - Use `--no-daemon` mode for insync.

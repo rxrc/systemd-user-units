@@ -3,6 +3,7 @@ Description=Run ruby /usr/local/bin/%i
 
 [Service]
 ExecStart=/bin/sh -c "`%h/.rbenv/bin/rbenv which ruby` /usr/local/bin/%i"
+Restart=on-failure
 
 [Install]
 WantedBy=default.target

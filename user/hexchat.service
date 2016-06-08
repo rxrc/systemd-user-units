@@ -6,6 +6,7 @@ After=xresources.service
 
 [Service]
 ExecStart=/usr/bin/hexchat --minimize=2
+Restart=on-failure
 
 [Install]
 WantedBy=display-server.target

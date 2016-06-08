@@ -5,6 +5,7 @@ After=xresources.service
 
 [Service]
 ExecStart=/usr/bin/env %i
+Restart=on-failure
 
 [Install]
 WantedBy=display-server.target
