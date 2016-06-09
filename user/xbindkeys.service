@@ -1,7 +1,7 @@
 [Unit]
 Description=Xbindkeys
 Documentation=man:xbindkeys(1)
-PartOf=display-server,target
+PartOf=display-server.target
 After=display-server.target
 
 [Service]

@@ -3,6 +3,7 @@
 ## HEAD
 
 - Set longer restart interval for redshift-gtk and app services.
+- Fix typo in `xbindkeys.service`.
 
 ## 2.2.0
 
