@@ -1,5 +1,9 @@
 # Changelog
 
+## HEAD
+
+- Set longer restart interval for redshift-gtk.
+
 ## 2.2.0
 
 - The following services now restart on failure:
