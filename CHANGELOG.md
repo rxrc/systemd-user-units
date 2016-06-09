@@ -2,7 +2,7 @@
 
 ## HEAD
 
-- Set longer restart interval for redshift-gtk.
+- Set longer restart interval for redshift-gtk and app services.
 
 ## 2.2.0
 
