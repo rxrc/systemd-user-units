@@ -1,6 +1,6 @@
 # Changelog
 
-## HEAD
+## 2.2.0
 
 - The following services now restart on failure:
   `app@`, `hexchat`, `insync`, `rbenv@`, `transmission-gtk`, and `xbindkeys`.
