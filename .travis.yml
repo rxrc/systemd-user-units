@@ -1,0 +1,10 @@
+language: node_js
+node_js: node
+deploy:
+  provider: npm
+  email: razorx@evansosenko.com
+  api_key:
+    secure: hN1phLVHw08kdVndZ8mqD3PAxznxJLS01QgbBrdzKxCJkMLH8dihsvjx3lHGIbCzKkrk14E4RIGrxOjVewbNQ0RlHv5rPoDMFtj8Fk84Btp6SCAWNSiV04XmmASeP36mzYBqxoDWn0km4Bnsjlh6qccisWye+/OdAGP+NIcviVY=
+  on:
+    tags: true
+    repo: rxrc/systemd-user-units

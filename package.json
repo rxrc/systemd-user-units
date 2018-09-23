@@ -1,0 +1,21 @@
+{
+  "name": "@rxrc/systemd-user-units",
+  "version": "2.3.0",
+  "description": "Systemd units.",
+  "homepage": "https://github.com/rxrc/systemd-user-units",
+  "bugs": "https://github.com/rxrc/systemd-user-units/issues",
+  "repository": "rxrc/systemd-user-units",
+  "license": "Unlicense",
+  "author": {
+    "name": "Evan Sosenko",
+    "email": "razorx@evansosenko.com"
+  },
+  "files": [
+    "*.conf.d",
+    "user"
+  ],
+  "scripts": {
+    "test": "true",
+    "postversion": "git push && git push --tags"
+  }
+}
