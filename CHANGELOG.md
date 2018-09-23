@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.4.0] / 2018-09-23
+
+### Changed
+
+- Replace Bower support with npm package.
+
 ## [2.3.0] / 2018-09-23
 
 ### Added
