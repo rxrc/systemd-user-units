@@ -4,7 +4,7 @@ deploy:
   provider: npm
   email: razorx@evansosenko.com
   api_key:
-    secure: hN1phLVHw08kdVndZ8mqD3PAxznxJLS01QgbBrdzKxCJkMLH8dihsvjx3lHGIbCzKkrk14E4RIGrxOjVewbNQ0RlHv5rPoDMFtj8Fk84Btp6SCAWNSiV04XmmASeP36mzYBqxoDWn0km4Bnsjlh6qccisWye+/OdAGP+NIcviVY=
+    secure: ZHgyd6pV8yTdylFK8FasCQVvVOF2yRJ4Lb2KZdrz7FAO2RqijSVtr4jp+/z7yysTYsn11T9Jcjj61mkql+GTVFh/izXKV5juxeqhWc5D8fWy2GeUjcLiUXkGbh1MRQFeruJaX9s9XLQDfbkmpU6J4rlBNeRERS7WSm6aZazkQ7I=
   on:
     tags: true
     repo: rxrc/systemd-user-units
