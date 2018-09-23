@@ -1,11 +1,11 @@
-# systemd Units
+# systemd User Units
 
 [![npm](https://img.shields.io/npm/v/@rxrc/systemd-user-units.svg)](https://www.npmjs.com/package/@rxrc/systemd-user-units)
 [![github](https://img.shields.io/badge/github-rxrc/systemd--user--units-blue.svg)](https://github.com/rxrc/systemd-user-units)
 
 ## Description
 
-These are my systemd units.
+These are my systemd user units.
 
 Stable versions are tagged on GitHub
 and published on npm as `@rxrc/systemd-user-units` for convenience.

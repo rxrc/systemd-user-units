@@ -1,7 +1,7 @@
 {
   "name": "@rxrc/systemd-user-units",
   "version": "2.4.1",
-  "description": "Systemd units.",
+  "description": "Systemd user units.",
   "homepage": "https://github.com/rxrc/systemd-user-units",
   "bugs": "https://github.com/rxrc/systemd-user-units/issues",
   "repository": "rxrc/systemd-user-units",
