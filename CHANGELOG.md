@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.4.3] / 2020-11-16
+
+### Changed
+
+- Update .gitignore.
+
 ## [2.4.2] / 2020-11-13
 
 ### Fixed
@@ -112,7 +118,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 - Initial release.
 
-[Unreleased]: https://github.com/rxrc/systemd-user-units/compare/v2.4.2...HEAD
+[Unreleased]: https://github.com/rxrc/systemd-user-units/compare/v2.4.3...HEAD
+[2.4.3]: https://github.com/rxrc/systemd-user-units/compare/v2.4.2...v2.4.3
 [2.4.2]: https://github.com/rxrc/systemd-user-units/compare/v2.4.1...v2.4.2
 [2.4.1]: https://github.com/rxrc/systemd-user-units/compare/v2.4.0...v2.4.1
 [2.4.0]: https://github.com/rxrc/systemd-user-units/compare/v2.3.0...v2.4.0
