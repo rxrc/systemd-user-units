@@ -11,4 +11,4 @@ ExecStart=/usr/bin/urxvtd -o -q
 Environment=RXVT_SOCKET=%t/urxvtd-%H
 
 [Install]
-WantedBy=display-server.service
+WantedBy=display-server.target
