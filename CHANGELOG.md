@@ -7,9 +7,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 ## [2.5.0] / 2022-12-04
 
-### Fixed
+### Added
 
-- WantedBy ref in urxvtd.service.
+- `xss-lock.service`.
 
 ## [2.4.4] / 2022-11-04
 
