@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 and this project adheres to [Semantic Versioning](https://semver.org/).
 
+## [2.5.0] / 2022-12-04
+
+### Fixed
+
+- WantedBy ref in urxvtd.service.
+
 ## [2.4.4] / 2022-11-04
 
 ### Fixed
@@ -124,7 +130,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 
 - Initial release.
 
-[Unreleased]: https://github.com/rxrc/systemd-user-units/compare/v2.4.4...HEAD
+[Unreleased]: https://github.com/rxrc/systemd-user-units/compare/v2.5.0...HEAD
+[2.5.0]: https://github.com/rxrc/systemd-user-units/compare/v2.4.4...v2.5.0
 [2.4.4]: https://github.com/rxrc/systemd-user-units/compare/v2.4.3...v2.4.4
 [2.4.3]: https://github.com/rxrc/systemd-user-units/compare/v2.4.2...v2.4.3
 [2.4.2]: https://github.com/rxrc/systemd-user-units/compare/v2.4.1...v2.4.2
