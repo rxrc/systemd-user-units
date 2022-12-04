@@ -14,6 +14,24 @@ For a usage example, see my [dotfiles].
 
 [dotfiles]: https://github.com/rxrc/dotfiles
 
+## Requirements
+
+### xss-lock
+
+- Requires using a [fork of xss-lock][xss-lock-session] that supports passing
+  the XDG_SESSION_ID.
+  Available as [xss-lock-session][xss-lock-session aur] from the AUR.
+- Must import `XDG_SESSION_ID` environment variable into the systemd user service.
+  One way to do this is add the following line to `~/.xprofile`:
+
+  ```
+  (sleep 1 && systemctl --user import-environment XDG_SESSION_ID && systemctl --user restart display-server.target) &
+  ```
+
+
+[xss-lock-session]: https://github.com/xdbob/xss-lock
+[xss-lock-session aur]: https://aur.archlinux.org/packages/xss-lock-session
+
 ## License
 
 This is free and unencumbered software released into the public domain.

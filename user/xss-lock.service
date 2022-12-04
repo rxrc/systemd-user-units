@@ -1,0 +1,13 @@
+[Unit]
+Description=Start xss-lock
+Documentation=man:xss-lock(1)
+PartOf=display-server.target
+After=display-server.target
+After=xscreensaver.service
+
+[Service]
+ExecStart=/usr/bin/xss-lock -s ${XDG_SESSION_ID} -n /usr/lib/xsecurelock/dimmer -l -- /usr/bin/xsecurelock
+Restart=on-failure
+
+[Install]
+WantedBy=display-server.target
