@@ -1,5 +1,5 @@
 [Unit]
-Description=Start Geoclue agent
+Description=Start geoclue
 
 [Service]
 ExecStart=/usr/lib/geoclue-2.0/demos/agent
